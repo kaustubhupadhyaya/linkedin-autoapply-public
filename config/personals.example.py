@@ -28,7 +28,7 @@ middle_name = ""
 last_name = "Last"
 
 # Phone number (required), make sure it is valid.
-phone_number = "0000000000"
+phone_number = "YOUR_PHONE_NUMBER"
 
 # What is your current city?
 current_city = ""
