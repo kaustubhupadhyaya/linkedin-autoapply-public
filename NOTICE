@@ -1,0 +1,28 @@
+LinkedIn Auto Job Applier (public fork)
+
+Upstream project:
+  Auto_job_applier_linkedIn
+  Author: Sai Vignesh Golla (GodsScion)
+  Source: https://github.com/GodsScion/Auto_job_applier_linkedIn
+
+License:
+  GNU Affero General Public License v3.0
+  See LICENSE.
+
+This repository is a modified fork of the upstream project. It is not the
+upstream project and is not endorsed by its author.
+
+Changes in this fork:
+- Credentials are read from environment variables, with optional support for a
+  local secure vault. No credentials are stored in tracked files.
+- Added a hardened local runner with resilient logging, session recovery,
+  security-wall detection, and safer handling of application questions.
+- Added a supervisor with restart limits, memory checks, and local network
+  outage handling.
+- Added optional title-gate, job-tracker, and candidate-knowledge integrations
+  through environment variables. They are inactive when unset.
+- Added sanitized configuration examples, a public-release cleanup, a
+  compile-only CI workflow, and documentation.
+
+Per-file copyright and license headers are retained. Files that carry an
+upstream header remain subject to the upstream terms and the AGPL.

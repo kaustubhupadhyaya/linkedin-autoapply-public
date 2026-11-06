@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+
+# Local secrets and personal configuration
+.env
+.env.*
+login.txt
+config/personals.py
+config/questions.py
+config/secrets.local.py
+
+# Runtime data
+all excels/
+all resumes/
+logs/
+.ua/
+brag-output/
+*.log
+linkedin_*.log
+
+# Tooling and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
